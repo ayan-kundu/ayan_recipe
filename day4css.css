@@ -1,6 +1,13 @@
 body {
  font-family: Arial;
  color: SlateGray;
+ color: black;
+
+ background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/blank-recipe-book-with-ingredients_SB_PM.jpg");
+ background-repeat:no-repeat ;
+ background-size: cover;
+ background-position: center center;
+ filter:blur(5px) ;
 }
 
 h1 {
@@ -21,7 +28,7 @@ img {
 
 footer {
  margin-top: 70px;
- background-color: Orange;
+ background-color: orange;
  color: White;
 }
 
