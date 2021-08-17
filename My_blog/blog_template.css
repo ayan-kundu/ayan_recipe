@@ -28,6 +28,8 @@ h2 {
 text_color {
 color:blue;
 font-weight: bolder;
+ padding-top: 15px;
+ padding-bottom: 15px;
 }
 
 img {
