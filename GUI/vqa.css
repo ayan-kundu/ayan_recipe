@@ -24,19 +24,19 @@ h2 {
 }
 
 
-
-h3 {
- text-align:center;
- font-size: 100%;
- color: SlateGray;
- font-weight: 75;
-}
 #img-heading {
  text-align:center;
  font-size: 100%;
  color: SlateGray;
  font-weight: 75;
 }
+#ques-heading {
+ text-align:center;
+ font-size: 100%;
+ color: SlateGray;
+ font-weight: 75;
+}
+
 
 
 
