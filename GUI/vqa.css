@@ -1,6 +1,6 @@
  body {
  font-family: Arial;
- color: SlateGray;
+
  color: black;
 
  background-image: url("https://wallpapercave.com/wp/dhRzfzg.jpg");
@@ -10,7 +10,7 @@
 
 }
 #container{
-    background: rgba(170, 187, 97, 0.45);
+    background: rgba(170, 187, 97, 0.65);
     padding: 2rem;
 }
 
@@ -20,21 +20,21 @@ h2 {
  font-size: 120%;
  color: Orange;
  text-transform: uppercase;
- font-weight: 100;
+ font-weight: 125;
 }
 
 
 #img-heading {
  text-align:center;
  font-size: 100%;
- color: SlateGray;
- font-weight: 75;
+ color: Black;
+ font-weight: 90;
 }
 #ques-heading {
  text-align:center;
  font-size: 100%;
- color: SlateGray;
- font-weight: 75;
+ color: Black;
+ font-weight: 90;
 }
 
 
