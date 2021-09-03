@@ -18,7 +18,8 @@
 h2 {
  text-align:center;
  font-size: 120%;
- color: Orange;
+ color: White;
+ background-color:Blue;
  text-transform: uppercase;
  font-weight: 125;
 }
