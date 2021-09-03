@@ -10,18 +10,18 @@
 
 }
 #container{
-    background: rgba(170, 187, 97, 0.65);
+    background: rgba(170, 187, 97, 0.85);
     padding: 2rem;
 }
 
 
 h2 {
  text-align:center;
- font-size: 120%;
+ font-size: 135%;
  color: White;
- background-color:Blue;
+ 
  text-transform: uppercase;
- font-weight: 125;
+ font-weight: 145;
 }
 
 
