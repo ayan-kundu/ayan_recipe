@@ -71,8 +71,8 @@ footer p {
   width: 90%;
  }
 
- h2 {
-  font-size: 200%;
+ h2,h3 {
+  font-size: 140%;
  }
 
 }
