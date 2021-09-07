@@ -64,13 +64,15 @@ input[type=text]:focus{
  border:2px solid blue;
  border-radius:30px;
  padding:20px 35px;
- color:white;
+ color:green;
  background:none;
- font-size:16px
+ font-size:20px;
+ font-family:Vivaldi;
 }
 .btn:hover,
 .btn:focus{
  background:green;
+ color:white;
  border:1px;
  border-color:dodgerBlue;
  border-radius 35px;
