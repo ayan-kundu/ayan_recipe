@@ -23,7 +23,14 @@ h2 {
  text-transform: uppercase;
  font-weight: 145;
 }
-
+h3 {
+ text-align:center;
+ font-size: 100%;
+ color: Black;
+ 
+ text-transform: uppercase;
+ font-weight: 115;
+}
 
 #img-heading {
  text-align:center;
