@@ -23,7 +23,15 @@
           
           <body>
                 <h3 id="img-heading" >Feed Image here ... <i class="fas fa-image" aria-hidden="true"></i></h3>
-            
+            <div class="image-file">
+              <div class="form-input">
+                <label for="file-ip">Upload Image</label>
+                  <input type="file" id="file-ip" accept="image/*" onchange="showPreview(event);">
+                    <div class="preview">
+                      <img id="file-ip-preview">
+                    </div>
+              </div>
+           </div>
             
                 <h3 id="ques-heading" >Enter your Question here ... <i class="fas fa-question" aria-hidden="true"></i></h3>
             <center><input type="text" name="question" id="question" placeholder="Your Question!" /><center>
