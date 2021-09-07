@@ -56,7 +56,6 @@
       
      <script>
 
-          
             function footerHover(){
                 document.getElementById("footer").style.fontSize = "100%";
                 document.getElementById("footer").style.backgroundColor= "#000000";
@@ -67,6 +66,14 @@
                 document.getElementById("footer").style.backgroundColor= "orange";
                 document.getElementById("footer").style.color= "#ffffff";
             }
+       
+          function showPreview(event){
+            if(event.target.files.length > 0){
+              var src = URL.createObjectURL(event.target.files[0]);
+              var preview = document.getElementById("file-ip-1-preview");
+              preview.src = src;
+              preview.style.display = "block";}
+           }
             
     </script>
   </body>
