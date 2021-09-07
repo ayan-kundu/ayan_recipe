@@ -126,7 +126,7 @@ input[type=text]:focus{
  font-family:Bradley Hand ITC;
  font-weight: 140;
  
- margin:auto;
+ margin-top:80px;
 }
 .btn:hover,
 .btn:focus{
