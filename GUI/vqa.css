@@ -35,11 +35,12 @@ h2 {
 }
 h3 {
  text-align:center;
- font-size: 100%;
+ font-size: 160%;
  color: Black;
 
- font-weight: 115;
- margin-bottom:60px;
+ font-weight: 175;
+ margin-top:60px;
+ margin-bottom:50px;
 }
 input[type=text]{
  width:60%;
