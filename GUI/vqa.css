@@ -62,12 +62,13 @@ input[type=text]:focus{
 .btn{
  display:block;
  border:2px solid blue;
- border-radius:30px;
- padding:20px 35px;
+ border-radius:20px;
+ padding:20px 30px;
  color:green;
  background:none;
- font-size:40px;
- font-family:Ravie;
+ font-size:30px;
+ font-family:Bradley Hand ITC;
+ font-weight: 130;
 }
 .btn:hover,
 .btn:focus{
@@ -75,7 +76,7 @@ input[type=text]:focus{
  color:white;
  border:1px;
  border-color:dodgerBlue;
- border-radius 35px;
+ border-radius 25px;
 
 }
 
