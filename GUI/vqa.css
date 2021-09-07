@@ -10,7 +10,7 @@
 
 }
 #container{
-    background: rgba(170, 187, 97, 0.85);
+    background: rgba(170, 187, 97, 0.65);
     padding: 2rem;
 }
 
@@ -142,7 +142,7 @@ input[type=text]:focus{
 
 
 footer {
- margin-top: 70px;
+ margin-top: 60px;
  background-color: orange;
  color: White;
 }
