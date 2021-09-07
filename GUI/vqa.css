@@ -71,6 +71,8 @@ input[type=text]:focus{
 .btn:hover,
 .btn:focus{
  background:green;
+ border:1px;
+ border-color:dodgerBlue;
  border-radius 35px;
 
 }
