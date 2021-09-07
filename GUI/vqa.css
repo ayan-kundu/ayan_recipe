@@ -22,9 +22,8 @@ h1 {
  color: White;
  font-family:Georgia;
  text-transform: uppercase;
- margin-top:20px;
- margin-bottom:20px;
- padding:200px
+ margin-top:20px 80px 20px 80px ;
+ padding:40px
  
 }
 h2 {
