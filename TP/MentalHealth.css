@@ -30,25 +30,33 @@ h1 {
  font-weight: 200;
 }
 
-img {
- width:80%;
- height: 100%;
- padding:10px 100px ;
+#image {
+ width:90%;
+ height:auto;
+ padding:auto;
+ 
 }
 
 #column1{
-  float: left;
+  float: right;
   width: 30%; 
-  padding: 20px 25px 20px 250px;
+  padding: 30px 25px 20px 350px;
 }
 #column2{
   float: left;
   width: 30%; 
-  padding: 20px 40px 20px 25px;
+  padding: 20px 40px 20px 250px;
 }
 
-
-
+iframe{
+ width:40%;
+}
+#video1{
+  padding: 30px 25px ;
+}
+#icon-img{
+font-size: 180%;
+}
 
 h2 {
  color: blueviolet;
@@ -59,12 +67,11 @@ h2 {
 #intro-head{
     margin-top:150 px;
     color:white;
+    text-align:center;
 }
 #icon-img{color:gold;}
-.intro{
+ .intro{
   color: black;
-
-
 }
 
 
@@ -79,6 +86,7 @@ p{
  color: #FFFFFF;
  font-weight: 125;
  font-size: 160%;
+ text-align: center;
 }
 
 
@@ -91,8 +99,8 @@ footer {
 
 footer p {
  text-align: center;
- padding-top: 15px;
- padding-bottom: 15px;
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 
 
