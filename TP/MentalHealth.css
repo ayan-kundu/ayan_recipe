@@ -1,4 +1,4 @@
- body {
+  body {
  font-family: Arial;
  color: SlateGray;
 
@@ -28,6 +28,13 @@ h1 {
  text-align:center;
  font-size: 300%;
  font-weight: 200;
+ text-decoration: underline dotted;
+}
+#hr-heading{
+background:black;
+width:75%;
+height:4px
+border-radius:45px;
 }
 
 #image {
@@ -35,6 +42,11 @@ h1 {
  height:auto;
  padding:auto;
  
+}
+#hr{
+height:5px;
+border-radius:185px;
+background:linear-gradient(to right, red, yellow, green);
 }
 
 #column1{
@@ -45,7 +57,7 @@ h1 {
 #column2{
   float: left;
   width: 30%; 
-  padding: 20px 40px 20px 250px;
+  padding: 35px 70px 20px 350px;
 }
 
 iframe{
@@ -55,7 +67,7 @@ iframe{
   padding: 30px 25px ;
 }
 #icon-img{
-font-size: 180%;
+font-size: 150%;
 }
 
 h2 {
@@ -80,6 +92,8 @@ li{
 
   font-size: 150%;
   font-weight: 115;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 p{
