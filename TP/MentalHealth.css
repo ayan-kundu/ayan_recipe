@@ -24,14 +24,14 @@ body: :before{
 }
 
 h1 {
- color:garkgreen;
+ color:darkgreen;
  text-align:center;
  font-size: 300%;
  font-weight: 200;
  text-decoration: underline dotted;
 }
 #hr-heading{
-background:black;
+background:white;
 width:75%;
 height:4px
 border-radius:45px;
@@ -47,6 +47,7 @@ border-radius:45px;
 height:5px;
 border-radius:185px;
 background:linear-gradient(to right, red, yellow, green);
+margin: 25px;
 }
 
 #column1{
@@ -76,6 +77,10 @@ h2 {
  font-weight: 150;
  font-size: 180%;
 }
+#ecobrick_vision{ color:YELLOW;
+ font-weight: 150;
+ font-size: 180%;
+ text-align:center;}
 #intro-head{
     margin-top:150 px;
     color:white;
