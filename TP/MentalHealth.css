@@ -151,7 +151,6 @@ footer p {
 
 
 @media screen and (max-width: 768px) {
-
  #container {
   width: 90%;
  }
@@ -159,9 +158,16 @@ footer p {
  h1 {
   font-size: 150%;
  }
-
 }
-
+@media only screen   
+and (min-width: 768px)  
+and (max-width: 1605px) 
+{ .text-col{
+font-size: 95%;
+text-align:justify;
+padding:0px 0px 35px 400px;
+}
+}
 @media only screen   
 and (min-width: 1370px)  
 and (max-width: 1605px) 
@@ -169,4 +175,5 @@ and (max-width: 1605px)
 font-size: 95%;
 text-align:justify;
 padding:0px 0px 35px 525px;
-}}
+}
+}
