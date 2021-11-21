@@ -6,13 +6,16 @@
 #### links >>>
 --- Think Pacific @WellnessFiji ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/TP/MentalHealth.html
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`
+
+
 --- MSc Project GUI ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/GUI/vqa.html
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`
+
+
 --- Code Institute UK workshop ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/Tea%20Recipe.html
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`
+
+
 --- ISA @UoL ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/Cope%20up-with-COVID.html
 https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/5-places-in-Lincoln.html
