@@ -40,6 +40,12 @@ h3 {
     margin-top:15px ;
     margin-bottom:10px ;
 }
+#video{
+    width: 300px;
+
+    margin: auto;
+    padding-top: 30px;
+}
 
 p{margin: 10px;}
 text_color {
