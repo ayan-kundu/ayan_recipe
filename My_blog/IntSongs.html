@@ -14,7 +14,7 @@
         <link href="blog_template.css" rel="stylesheet" type="text/css" />
     </head>
 
-        <body >
+        <body onload="startTime()" > 
             <div id="container">
 
                 <header onmouseover="imageHover()" onmouseout="imageNormal()">
@@ -24,15 +24,18 @@
                         <img src="https://drive.google.com/uc?id=1o39fAdZ6OtQBbfsgkiwPXwpY89OkD1C5">
                     </section>
                     
+
                     <section id="audio"><center>
                         <audio controls>
                             <source src="Ayana❤️.mp3" type="audio/mpeg">
 
                         </audio></center>
                     </section>
-            
-            <section>
+
+
+
                     <section>
+
                         <center>
                         <h2>Songs </h2>
                            <a href="https://www.youtube.com/watch?v=Q248Kc0pfSI&list=PLOwSo8kHs4XR_RJO2MhfzjI3pILFuobmo" target="_blank">
@@ -40,9 +43,7 @@
                                                        <p id="space_above"></p>
                             <a href="https://www.youtube.com/watch?v=p_4coiRG_BI" target="_blank">Spanish</a>
                                                         <p id="space_above"></p>
-                            <a href="https://www.youtube.com/watch?v=0wN3qRDDiUw&t=1249s" target="_blank">Indian</a>
-                                                        <p id="space_above"></p>
-                            <a href="https://www.youtube.com/watch?v=WeOa2MABV2g" "https://www.youtube.com/watch?v=mJUTvUX1Rpw" target="_blank">English</a>
+                            <a href="https://www.youtube.com/watch?v=0wN3qRDDiUw" target="_blank">Indian</a>
                                                         <p id="space_above"></p>
                             <a href="https://www.youtube.com/watch?v=YBU97Lb6jHw" targer="_blank">
                             Bengali</a>
@@ -61,14 +62,37 @@
                             <a href="https://www.youtube.com/watch?v=dON9K1CKQ0k" target="_blank">Chaina</a>
                             <a href="https://www.youtube.com/watch?v=3upmkvTlqVQ&list=PLMmVJHHEJ42-p0HrI1Xsxmms9IHmHJDk5"              target="_blank">
                             Slovakia</a>
-                            
-                        
                         </center>
                     </section>
-            
+
+                    <section>
+                        <div style="text-align: center ; color: green; font-family:cursive;font-size:22px ; font-weight: bold; padding-top: 12px;" id="DateTime">
+
+                        <script>
+                        
+                        var currentDate=new Date();
+
+                        var year=currentDate.getFullYear();var month=currentDate.getMonth();var day=currentDate.getDate();
+                        var date=day+"/"+month+"/"+year;
+                        document.getElementById("DateTime").innerHTML=date;
 
 
-            
+
+                        function startTime() {
+                        var hour=currentDate.getHours();var minute=currentDate.getMinutes();var second=currentDate.getSeconds(); 
+                        var time= date+" "+hour+":"+minute+":"+second;
+                        document.getElementById("DateTime").innerHTML=time;
+
+                        setTimeout(function(){startTime()});
+
+                        }
+                        /*var fullDateTime=date+" "+time;*/
+                        /*document.write(fullDateTime) */
+                        
+                        </script>
+                        </div>
+                    </section>
+
 
 
             <section onmouseover="bodyHover()" onmouseout="bodyNormal()"> </section>
@@ -79,6 +103,26 @@
                     </footer>
                     </div>
                         <script>
+
+                            var currentDate=new Date();
+
+                            var year=currentDate.getFullYear();var month=currentDate.getMonth();var day=currentDate.getDate();
+                            var date=day+"/"+month+"/"+year;
+                            document.getElementById("DateTime").innerHTML=date;
+
+                            function startTime() {
+                            var hour=currentDate.getHours();var minute=currentDate.getMinutes();var second=currentDate.getSeconds(); 
+                            var time= date+" "+hour+":"+minute+":"+second;
+                            document.getElementById("DateTime").innerHTML=time;
+
+                            setTimeout(function(){startTime()});
+
+                            }
+                            /*var fullDateTime=date+" "+time;*/
+                            /*document.write(fullDateTime) */
+
+
+
                             function bodyHover(){
                                 document.getElementById("ingredients").style.fontSize = "150%";
                             }
