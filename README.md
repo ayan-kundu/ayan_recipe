@@ -24,6 +24,9 @@ https://ayan-kundu.github.io/ayan_recipe.github.io/Tea%20Recipe.html
 https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/Cope%20up-with-COVID.html
 https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/5-places-in-Lincoln.html
 
+--- myPoerty ---
+
+https://ayan-kundu.github.io/ayan_recipe.github.io/poet/poetry.html
 
 {under constuction}
 
