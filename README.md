@@ -21,6 +21,11 @@ https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/Cope%20up-with-COVID.
 
 https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/5-places-in-Lincoln.html
 
+#### --- Student Life @UoL ---
+
+https://studentlife.lincoln.ac.uk/author/25360019/
+https://studentlife.lincoln.ac.uk/2022/07/19/best-of-must-see-in-lincoln/
+
 #### --- myPoerty ---
 
 https://ayan-kundu.github.io/ayan_recipe.github.io/poet/poetry.html
