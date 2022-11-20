@@ -4,30 +4,29 @@
 
 
 ### links >>>
+
 --- My 1st Recipe-webpage ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/Tea%20Recipe.html
 
 --- Think Pacific @WellnessFiji ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/TP/MentalHealth.html
 
-
---- MSc Project GUI ---
-https://ayan-kundu.github.io/ayan_recipe.github.io/GUI/vqa.html
-
-
 --- Code Institute UK workshop ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/Tea%20Recipe.html
 
 
---- ISA @UoL ---
+####--- ISA @UoL ---
 
 https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/Cope%20up-with-COVID.html 
 
 https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/5-places-in-Lincoln.html
 
---- myPoerty ---
+####--- myPoerty ---
 
 https://ayan-kundu.github.io/ayan_recipe.github.io/poet/poetry.html
+
+####--- MSc Project GUI ---
+https://ayan-kundu.github.io/ayan_recipe.github.io/GUI/vqa.html
 
 {under constuction}
 
