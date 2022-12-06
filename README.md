@@ -14,13 +14,6 @@ https://ayan-kundu.github.io/ayan_recipe.github.io/TP/MentalHealth.html
 --- Code Institute UK workshop ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/Tea%20Recipe.html
 
-
-#### --- ISA @UoL ---
-
-https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/Cope%20up-with-COVID.html 
-
-https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/5-places-in-Lincoln.html
-
 #### --- Student Life @UoL ---
 
 https://studentlife.lincoln.ac.uk/author/25360019/
@@ -29,6 +22,12 @@ https://studentlife.lincoln.ac.uk/2022/07/19/best-of-must-see-in-lincoln/
 #### --- myPoerty ---
 
 https://ayan-kundu.github.io/ayan_recipe.github.io/poet/poetry.html
+
+#### --- ISA @UoL ---
+
+https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/Cope%20up-with-COVID.html 
+
+https://ayan-kundu.github.io/ayan_recipe.github.io/My_blog/5-places-in-Lincoln.html
 
 #### --- MSc Project GUI ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/GUI/vqa.html
