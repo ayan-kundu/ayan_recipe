@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Ayan's Tea Recipe</title>
+    <link rel="shortcut icon" type="image" href="https://www.pngkit.com/bigpic/u2q8w7q8r5o0a9o0/">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
+    <link href="recipe.css" rel="stylesheet" type="text/css" />
+  </head>
+    
+  <body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQmpBU5u1WldAlK9rh8aJvjDz2aalVUP42Q&usqp=CAU">
+        <div id="container">
+  
+            <header onmouseover="imageHover()" onmouseout="imageNormal()">
+                <h1 id="heading" >Veg Sandwich</h1>
+                <center><img src="https://i.etsystatic.com/12427102/r/il/d3325a/3688105147/il_fullxfull.3688105147_mtq6.jpg" id='image'></center>
+    
+                <p>When it comes to sandwich, it is always tricky to make it simple but savory. Here is a suggestion to make a meat-free delightful sandwich what is homemade and dashing in taste</p>
+
+                <center><i id="preparation" class="fa fa-video-camera" aria-hidden="true"></i> Watch this &#128513  </i><center>
+    
+            </header>
+
+            <section id="video">
+                <center>
+                    <video  controls>
+                        <source src="TeaVideo.mp4" type="video/mp4">
+                    </video>
+                </center>
+            </section>
+            
+            <section onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+                <h2>ingredients <i id="ingredients" class="fa fa-leaf" aria-hidden="true"></i></h2>
+                <ul>
+                    <li>Bread</li>
+                    <li>Butter</li>
+                    <li>Cheese</li>
+                    <li>Mayonnaise</li>
+                    <li>Iceberg lettuce/Cucumber & peas</li>
+                </ul>
+            </section>
+            
+            <section onmouseover="preparationHover()" onmouseout="preparationNormal()">
+                <h2>preparation <i id="preparation" class="fa fa-check-square" aria-hidden="true"></i></h2>
+                <ol>
+                    <li>
+                    Dish up bread slices side by side (white bread is preferred) 
+                    </li>
+                    <li>
+                        place cheese sheet in the middle of each one.
+                    </li>
+                    <li>
+                        Border up the cheese with butter making sure not a single area is left without butter or cheese.
+                    </li>
+                    <li>
+                        Place couple of leaves of Iceburg lettuce on top of that.If iceburg is not available cut cucumber in to round slices and place them with peas(not too many!)
+                    </li>
+                    <li>
+                        When it is done couple up two slices putting all the stuffing in between two. You can cut out the leaf sides popped out of the bread slices if you want
+                    </li>
+                    <li>
+                        Final step is to cut the conjoint breads diagonally. Two portions of readymade veg-sandwich are ready to serve.
+                    </li>
+                    <li>
+                        Enjoy!
+                    </li>
+                </ol>
+            </section>
+            
+            <footer onmouseover="footerHover()" onmouseout="footerNormal()">
+                <p id="footer" >Copyright Me 2021 _@Aayan</p>
+            </footer>
+        </div>
+        <script>
+            function ingredientsHover(){
+                document.getElementById("ingredients").style.fontSize = "300%";
+            }
+            
+            function ingredientsNormal(){
+                document.getElementById("ingredients").style.fontSize = "100%";
+            }
+            
+            function preparationHover(){
+                document.getElementById("preparation").style.fontSize = "300%";
+            }
+            
+            function preparationNormal(){
+                document.getElementById("preparation").style.fontSize = "100%";
+            }
+            function imageHover(){
+                document.getElementById("heading").style.fontSize = "400%";
+            }
+            
+            function imageNormal(){
+                document.getElementById("heading").style.fontSize = "300%";
+            }
+            function footerHover(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "#000000";
+                document.getElementById("footer").style.color= "#ff0000";
+            }
+            function footerNormal(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "orange";
+                document.getElementById("footer").style.color= "#ffffff";
+            }
+    </script>
+    </body>
+</html>
