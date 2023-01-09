@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<body>
+<font color="blue"><h1 align="center">Outer function() with single inner function()</h1></font>
+<script>
+
+function givemecolor(thecolor,thetext)
+{
+    return '<span style="color:'+thecolor+'">'+thetext+'</span>';
+}
+
+
+function triangleHypotenuse(base,height)
+{
+function square(side){
+return side*side;
+}
+return Math.sqrt(square(base)+square(height)); // square func called in triangle func
+}
+
+
+function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+   }
+async function Tutor() {
+      document.write('Hello << Nested Function >>');
+      for (let i = 1; i <=5 ; i++) {        
+         await sleep(250);
+         document.write( i +" "+"Welcome to trigonometry" + " " + "</br>");
+      }
+	await sleep(500);
+      document.write( "<center>Finish!</center>".fontcolor("red").fontsize(4).bold());
+	
+      
+document.write("Hypotenuse of triangle(3,4) is :"+triangleHypotenuse(3,4)); // triangle func called in Tutor
+   }
+
+
+Tutor() // call everything al once via Tutor()
+
+</script>
+</body>
+</html>
