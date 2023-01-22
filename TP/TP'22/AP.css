@@ -31,13 +31,18 @@ h1 {
  text-decoration: underline dotted;
 }
 #heading-text{
-  
   color: ghostwhite;
   font-family: Arial;
   font-size: 150%;
-
-  
 }
+img{
+height: 300px;
+width: 450px;
+}
+#header-img1{
+padding-left:15%;
+}
+
 #hr-heading{
 background:white;
 width:75%;
