@@ -1,4 +1,4 @@
-  body {
+body {
  font-family: Arial;
  color: SlateGray;
 
@@ -22,85 +22,23 @@
     margin: auto;
     margin-top: 55px;margin-bottom: 55px;
 }
+#container2-heading {
+ text-align: center;
+ color: LightCoral;
+ text-transform: uppercase;
+ font-weight: 150;
+ font-size: 180%;
+ text-decoration-line: underline;
+}
+
+
 h1 {
  color: burlywood;
  text-align:center;
  font-size: 300%;
  font-weight: 200;
  text-decoration: underline dotted;
-}
-#heading-text{
-  color: ghostwhite;
-  font-family: Arial;
-  font-size: 150%;
-}
-img{
-height: 300px;
-width: 450px;
-}
-#header-img1{
-padding-left:15%;
-}
-
-#hr-heading{
-background:white;
-width:75%;
-height:4px
-border-radius:45px;
-}
-
-#image {
- width:90%;
- height:auto;
- padding:auto;
-}
-
-.img-text-container{
-padding:8px;
-margin:15px auto;
-}
-#img-left {
- float:left;
- width:35%;
- height:7%;
- padding:10px 10px 10px 50px;
-}
-.text-col{
-font-size: 95%;
-text-align:justify;
-/*padding:5px 0px 30px 575px;*/
-padding:0px 0px 35px 400px;
-
-}
-
-#hr{
-height:5px;
-border-radius:185px;
-background:linear-gradient(to right, red, yellow, green);
-margin: 25px;
-}
-
-#column1{
-  float: right;
-  width: 30%; 
-  padding: 30px 25px 20px 350px;
-}
-#column2{
-  float: left;
-  width: 30%; 
-  padding: 35px 70px 20px 350px;
-}
-
-iframe{
- width:30%;
- height:20%;
-}
-#video1{
-  padding: 20px 25px ;
-  
-}
-#icon-img{
-font-size: 150%;
+ 
 }
 h2{
  text-align: center;
@@ -108,56 +46,93 @@ h2{
  text-transform: uppercase;
  font-weight: 150;
  font-size: 180%;
+ padding-top:20px;
 }
-#container2-heading {
- text-align: center;
- color: red;
- text-transform: uppercase;
- font-weight: 150;
- font-size: 180%;
-}
-
 h3 {
-
  color: orange;
  text-transform: uppercase;
  font-weight: 150;
  font-size: 150%;
+ padding-top:20px;
 }
-#ecobrick_vision{ color:YELLOW;
- font-weight: 150;
- font-size: 180%;
- text-align:center;}
-#intro-head{
-    margin-top:150 px;
-    color:white;
-    text-align:center;
+u{
+color:green;
 }
-#icon-img{color:gold;}
- .intro{
-  color: black;
+#post-script{
+color:GreenYellow;
 }
-
-
-li{
-  color: green;
-
+#heading-text{
+  color: ghostwhite;
+  font-family: Arial;
   font-size: 150%;
-  font-weight: 115;
-  text-align: justify;
-  text-justify: inter-word;
 }
-
 p{
  color: #FFFFFF;
  font-weight: 125;
- font-size: 135%;
+ font-size: 110%;
  
 }
 #justify-text{
   text-align: center;
 }
 
+
+#oc{
+  color: green;
+  font-size: 150%;
+  font-weight: 115;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#ps{
+  color: #FFFFFF;
+  font-weight: 125;
+  font-size: 110%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+img{
+height: 180px;
+width: 30%;
+}
+#header-img1{
+padding-left:15%;
+}
+#fact-img{
+height: 250px;
+width: 300px;
+padding-left:5%;
+}
+#fact-img1{
+height: 250px;
+width: 300px;
+padding-left:12%;
+}
+
+#ps-img{
+height: 300px;
+width: 350px;
+}
+
+#video1{
+  padding: 20px 25px ; 
+}
+
+
+#hr-heading{
+background:white;
+width:75%;
+height:4px
+border-radius:45px;
+}
+#hr{
+height:5px;
+border-radius:185px;
+background:linear-gradient(to right, red, yellow, green);
+margin: 25px;
+}
 
 
 footer {
@@ -168,6 +143,7 @@ footer {
 
 footer p {
  text-align: center;
+ font-size: 95%;
  padding-top: 20px;
  padding-bottom: 20px;
 }
@@ -178,11 +154,11 @@ footer p {
  #container {
   width: 90%;
  }
-
  h1 {
   font-size: 150%;
  }
 }
+
 @media only screen   
 and (min-width: 768px)  
 and (max-width: 1605px) 
@@ -191,7 +167,14 @@ font-size: 95%;
 text-align:justify;
 padding:0px 0px 35px 400px;
 }
+#fact-img1{
+height: 250px;
+width: 300px;
+padding-left:0%;
 }
+
+}
+
 @media only screen   
 and (min-width: 1370px)  
 and (max-width: 1605px) 
@@ -208,4 +191,10 @@ font-size: 95%;
 text-align:justify;
 padding:0px 0px 35px 625px;
 }
+#fact-img1{
+height: 250px;
+width: 300px;
+padding-left:0%;
+}
+
 }
