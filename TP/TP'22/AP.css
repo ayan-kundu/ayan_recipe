@@ -35,10 +35,16 @@ body {
 h1 {
  color: burlywood;
  text-align:center;
+}
+#title{
+background-color: rgba(255, 255, 255, .95);
+padding-top: 4px;padding-bottom: 4px;
+margin-left:5.2% ;margin-right: 5.2%;
+ font-family: !important;
  font-size: 300%;
  font-weight: 200;
- text-decoration: underline dotted;
- 
+ border-radius: 35px;
+
 }
 h2{
  text-align: center;
@@ -76,7 +82,11 @@ p{
   text-align: center;
 }
 
-
+#icon{
+  color: yellow;
+  font-weight: 125;
+  font-size: 110%;
+}
 #oc{
   color: green;
   font-size: 150%;
@@ -85,7 +95,7 @@ p{
   text-justify: inter-word;
 }
 #ps{
-  color: #FFFFFF;
+  
   font-weight: 125;
   font-size: 110%;
   text-align: justify;
@@ -139,6 +149,7 @@ footer {
  margin-top: 50px;
  background-color: orange;
  color: White;
+ border-radius: 55px;
 }
 
 footer p {
@@ -146,6 +157,7 @@ footer p {
  font-size: 95%;
  padding-top: 20px;
  padding-bottom: 20px;
+ 
 }
 
 
