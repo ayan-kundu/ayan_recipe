@@ -157,6 +157,13 @@
                     </footer>
                     </div>
                         <script>
+			document.addEventListener('keyup',(e)=>{
+                        	if(e.key = 'PrintScreen')
+                        		{
+                        			navigator.clipboard.writeText(' ');
+                        			alert('Sorry Screenshot Disabled!');
+                        		}
+                        	})
                             function bodyHover(){
                                 document.getElementById("ingredients").style.fontSize = "150%";
                             }
