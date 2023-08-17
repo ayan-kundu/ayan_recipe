@@ -11,6 +11,9 @@ https://ayan-kundu.github.io/ayan_recipe.github.io/Tea%20Recipe.html
 --- Think Pacific @WellnessFiji ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/TP/MentalHealth.html
 
+#Internship 2023
+
+https://ayan-kundu.github.io/ayan_recipe.github.io/TP/TP'22/AP.html
 --- Code Institute UK workshop ---
 https://ayan-kundu.github.io/ayan_recipe.github.io/Tea%20Recipe.html
 
