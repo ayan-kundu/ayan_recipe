@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Mushroom Forecasting </title>
+    <link rel="shortcut icon" type="image" href="https://www.pngkit.com/bigpic/u2q8w7q8r5o0a9o0/">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="vqa.css" rel="stylesheet" type="text/css" />
+  </head>
+
+        <div id="container">
+          
+          <header> 
+            <h1><strong>Mushroom Forecasting System demo</strong></h1>
+            
+            <h2> Forecast mushrooms with harvestable<strong> time</strong> and <strong>Net yield </strong> </h2>
+          </header>
+          
+          <body>
+                <h3 id="img-heading" >Live stream/image input <i class="fa fa-camera"></i></h3>
+             <div class="image-file">
+               <div class="form-input">
+                  <label for="file-ip">Image / Video</label>
+                  <input type="file" id="file-ip" accept="image/*" onchange="showPreview(event);">
+                    <div class="preview">
+                      <center><img id="file-ip-preview"></center>
+                    </div>
+                </div>
+             </div>
+
+             <div class="Output-file">
+
+                <h3 id="output-heading" >Forecast output <i class="fa fa-search" aria-hidden="true"></i></h3>
+		
+		<form>
+		<OutputElements id="NetWeight">Net Weight(Kg/Ton)</OutputElements>
+
+		<OutputElements id="SizeNow">Harvestable Size now</OutputElements>
+		<OutputElements id="Size6h">Harvestable Size in 6Hrs</OutputElements>
+		<OutputElements id="Size12h">Harvestable Size in 12Hrs</OutputElements>
+
+		<OutputElements id="ClassA">Class A (Kg/Ton)</OutputElements>
+		<OutputElements id="ClassB">Class B (Kg/Ton)</OutputElements>
+
+		<OutputElements id="Graph">On-bed  Sizes vs Prod. Graph</OutputElements>
+
+
+             </div>
+
+
+             <center><button class="btn" type="submit "name="predict" id="predict"><strong>Start Forecast!</strong></button><center>
+    
+         </body>
+
+
+
+            
+
+            
+        <footer onmouseover="footerHover()" onmouseout="footerNormal()">
+                <p id="footer" >Copyright Me 2021 _@Aayan</p>
+        </footer>
+    
+      </div>
+      
+      
+      
+     <script>
+
+            function footerHover(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "#000000";
+                document.getElementById("footer").style.color= "#ff0000";
+            }
+            function footerNormal(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "orange";
+                document.getElementById("footer").style.color= "#ffffff";
+            }
+       
+          function showPreview(event){
+            if(event.target.files.length > 0){
+              var src = URL.createObjectURL(event.target.files[0]);
+              var preview = document.getElementById("file-ip-preview");
+              preview.src = src;
+              preview.style.display = "block";}
+           }
+            
+    </script>
+  </body>
+</html>
