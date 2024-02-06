@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Mushroom Forecasting </title>
+    <link rel="shortcut icon" type="image" href="https://www.pngkit.com/bigpic/u2q8w7q8r5o0a9o0/">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="forecast2.0.css" rel="stylesheet" type="text/css" />
+  </head>
+
+        <div id="container">
+          
+          <header> 
+            <h1><strong>Mushroom Forecasting System demo</strong></h1>
+            
+            <h2> Forecast mushrooms with harvestable<strong> time</strong> and <strong>Net yield </strong> </h2>
+          </header>
+          
+  <body>
+                <h3 id="img-heading" >Live stream/image input <i class="fa fa-camera"></i></h3>
+             <div class="image-file">
+               <div class="form-input">
+                  <label for="file-ip">Image / Video</label>
+                  <input type="file" id="file-ip" accept="image/*" onchange="showPreview(event);">
+                    <div class="preview">
+                      <center><img id="file-ip-preview"></center>
+                    </div>
+                </div>
+             </div>
+
+             <div class="Output-file">
+
+                <h3 id="output-heading" >Forecast output <i class="fa fa-search" aria-hidden="true"></i></h3>
+		
+		<select id='select_tunnel'><option value="Tunnel 1">Tunnel 1</option><option value="Tunnel 2">Tunnel 2</option><option value="Tunnel n">Tunnel n</option></select>            
+
+	<div class="clearfix">
+              <div id="box" style="width:12%;background-color:#bbb; margin-left:2%;">
+              <p>Size-range VS Number</p><hr style="text-align:center;margin-left:0">
+              <p>20-25mm ->> 1020 </p>
+              <p>30-35mm ->>  100 </p>
+              <p>40-45mm ->>  100 </p><p> ... </p>
+          </div>
+              <div id="box" style="background-color:#ccc ; margin-left:2%;">
+              <p>Bed Now </p><hr style="text-align:center;margin-left:0">
+              <p>Size 20-25 mm ->> 320 kg</p>
+              <p>Size 30-35 mm ->> 100 kg</p>
+              <p>Size 40-45 mm ->> 580 kg</p>
+              </div>
+              <div id="box" style="background-color:#ccc ; margin-left:.5%;">
+              <p>Bed in 3 Hrs</p><hr style="text-align:center;margin-left:0">
+              <p>Size 20-25 mm ->> 420 kg</p>
+              <p>Size 30-35 mm ->> 180 kg</p>
+              <p>Size 40-45 mm ->> 660 kg</p>
+              </div>
+              <div id="box" style="background-color:#ccc ; margin-left:.5%;">
+              <p>Bed in 6 Hrs</p><hr style="text-align:center;margin-left:0">
+              <p>Size 20-25 mm ->> 420 kg</p>
+              <p>Size 30-35 mm ->> 180 kg</p>
+              <p>Size 40-45 mm ->> 660 kg</p>
+              </div>
+              <div id="box" style="background-color:#ccc ; margin-left:.5%;">
+              <p>Bed in 9 Hrs</p><hr style="text-align:center;margin-left:0">
+              <p>Size 20-25 mm ->> 420 kg</p>
+              <p>Size 30-35 mm ->> 180 kg</p>
+              <p>Size 40-45 mm ->> 660 kg</p>
+              </div>
+              <div id="box" style="background-color:#ccc ; margin-left:.5%;">
+              <p>Bed in 12 Hrs</p><hr style="text-align:center;margin-left:0">
+              <p>Size 20-25 mm ->> 420 kg</p>
+              <p>Size 30-35 mm ->> 180 kg</p>
+              <p>Size 40-45 mm ->> 660 kg</p>
+              </div>
+
+              <div id="box" style="background-color:#bbb;margin-left:2%;">
+              <p>Net Weight, Class A + B</p><hr style="text-align:center;margin-left:0">
+	      <p>Net Weight ->> 1440 kg</p>
+              <p>Class A ->> 1220 kg</p>
+              <p>Class B ->> 220 kg</p>
+              </div>
+
+              
+            </div>
+              <div id="box" style="background-color:#bbb;margin-left:45%;margin-top:3.5%;">
+              <p>Production vs Class graph</p><hr style="text-align:center;margin-left:0">
+              </div>
+
+
+             <center><button class="btn" type="submit "name="predict" id="predict"><strong>Start Forecast!</strong></button><center>
+
+
+
+  </body>
+
+        <footer onmouseover="footerHover()" onmouseout="footerNormal()">
+                <p id="footer" >Copyright Me 2021 _@Aayan</p>
+        </footer>
+    
+      </div>
+      
+      
+      
+     <script>
+
+            function footerHover(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "#000000";
+                document.getElementById("footer").style.color= "#ff0000";
+            }
+            function footerNormal(){
+                document.getElementById("footer").style.fontSize = "100%";
+                document.getElementById("footer").style.backgroundColor= "orange";
+                document.getElementById("footer").style.color= "#ffffff";
+            }
+       
+          function showPreview(event){
+            if(event.target.files.length > 0){
+              var src = URL.createObjectURL(event.target.files[0]);
+              var preview = document.getElementById("file-ip-preview");
+              preview.src = src;
+              preview.style.display = "block";}
+           }
+            
+    </script>
+  </body>
+</html>
