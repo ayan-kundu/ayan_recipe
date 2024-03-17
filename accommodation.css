@@ -79,7 +79,11 @@ p{
  font-size: 180%;
 }
 
-
+p1{
+ color: slake;
+ font-weight: 125;
+ font-size: 180%;
+}
 
 footer {
  margin-top: 70px;
