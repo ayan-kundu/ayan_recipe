@@ -75,8 +75,13 @@ customText{
     color: green;
 }
 #iconLink{
-    width:12%;
-    height:15%;
+    width:35%;
+    height:40%;
+    text-align:center;
+}
+#QRLink{
+    width:60%;
+    height:60%;
     text-align:center;
 }
 
